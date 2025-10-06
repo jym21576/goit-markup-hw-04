@@ -301,9 +301,11 @@ img {
 }
 
 .values-box {
-    border: 1px solid var(--light-slate);border-radius: 4px;
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
     height: 112px;
     background: var(--cloud);
+    justify-items: center;
 }
 
 .values-title {
@@ -311,6 +313,7 @@ img {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    margin-top: 8px;
     margin-bottom: 8px;
 }
 
