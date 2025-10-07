@@ -478,6 +478,7 @@ img {
     color: var(--cloud);
     padding: 40px 32px;
     background-color: var(--iris);
+    transform: translateY(0%);
 }
 
 .portfolio-item {
@@ -488,7 +489,7 @@ img {
     position: relative;
 }
 
-.portfolio-item:hover .portfolio-img-overlay {
+.portfolio-wrapper:hover .portfolio-img-overlay {
     opacity: 1;
 }
 
@@ -548,9 +549,9 @@ img {
     max-width: 256px;
 }
 
-/* .logo-container{
+.logo-container{
     margin-right: 120px;
-} */
+}
 
 .social-network-title {
     font-weight: 500;
