@@ -412,10 +412,10 @@ img {
             transition: stroke 250ms linear; */
         }
         
-.social-list-link:hover,
-.social-list-link:focus {
-             background-color: var(--ocean);
-            }
+
+/* .social-list-link:hover,
+.social-list-link:focus {background-color: var(--ocean);
+            } */
 
 .social-icon-item {
     fill: var(--cloud);
