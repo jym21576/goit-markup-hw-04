@@ -95,6 +95,8 @@ img {
 
 .header {
     /* max-width: 1440px; */
+    position: fixed;
+    top: 0;
     padding: 20px 0;
     background-color: var(--white);
     background-size: cover;
